@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">        
+        <title>UNILAB</title>
+        <link rel="icon" href="imagem/unilabsimbolo.png">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script defer src="js/fontawesome-all.min.js"></script>
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <a class="sidebar-toggle text-light mr-3">
+                <span class="navbar-toggler-icon"></span>
+            </a>
+            <a class="navbar-brand" href="#">UNILAB</a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu-header" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                            <img class="rounded-circle" src="imagem/unilabsimbolo.png" width="30" height="30"> &nbsp;<span class="d-none d-sm-inline">Usuário</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria+-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#"><i class="fas fa-user"></i> Perfil</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Sair</a>
+                        </div>
+                    </li>
+                </ul>                
+            </div>
+        </nav>
+
+        <div class="d-flex">
+            <nav class="sidebar">
+                <ul class="list-unstyled">
+                    <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                    <li>
+                        <a href="#submenu1" data-toggle="collapse">
+                            <i class="fas fa-user"></i> Usuário
+                        </a>
+                        <ul id="submenu1" class="list-unstyled collapse">
+                            <li>
+                                <a href="#submenu2" data-toggle="collapse"><i class="fas fa-user"></i> Gerenciar</a>
+
+                                <ul id="submenu2" class="list-unstyled collapse">
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Visualizar</a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Deletar</a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Editar </a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Inserir </a></li>
+
+                        </ul>
+
+                                <a href="#submenu3" data-toggle="collapse"><i class="fas fa-user"></i> Consultar</a>
+
+                                 <ul id="submenu3" class="list-unstyled collapse">
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Gestor</a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Bolsista</a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Orientador </a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> CAAP </a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Coodenador</a></li>
+                        </ul>
+                            </li>
+                        </ul>
+
+                        <li>
+                        <a href="#submenu4" data-toggle="collapse">
+                            <i class="fas fa-user"></i> Editais
+                        </a>
+                        <ul id="submenu4" class="list-unstyled collapse">
+                            <li>
+                                <a href="#submenu5" data-toggle="collapse"><i class="fas fa-user"></i> Gerenciar</a>
+
+                                <ul id="submenu5" class="list-unstyled collapse">
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Atualizar Edital</a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Deletar Edital</a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Editar Edital </a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Inserir Edital</a></li>
+
+                        </ul>
+
+                        <a href="#submenu6" data-toggle="collapse"><i class="fas fa-user"></i> Relatórios </a>
+
+                        <ul id="submenu6" class="list-unstyled collapse">
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Frequência</a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Relatório de Pesquisa</a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Relatório Final</a></li>
+
+                        </ul>
+                    </li>
+                        </ul>
+
+                        <li>
+                        <a href="#submenu7" data-toggle="collapse">
+                            <i class="fas fa-user"></i> Projetos
+                        </a>
+                        <ul id="submenu7" class="list-unstyled collapse">
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Voluntários</a></li>
+                            <li><a href="listar.html"><i class="fas fa-users"></i> Avaliar</a></li>
+                        </ul>
+                    </li>
+                    
+                
+                    <!--comentario
+
+                    <li class="active"><a href="#"> Login</a></li>
+                    <li><a href="#"><i class="fas fa-sign-out-alt"></i> Cadastrar</a></li>
+                    <li><a href="#"><i></span><span class="material-icons">account_circle</span></i> Gestor </a></li>
+                    <li><a href="#"><i></span><span class="material-icons">account_circle</span></i> Bolsista </a></li>
+                    <li><a href="#"><i></span><span class="material-icons">account_circle</span></i> Adminstrador </a></li>
+                    <li><a href="#"><i></span><span class="material-icons">account_circle</span></i> Membro da DAPP </a></li>
+                    <li><a href="#"><i></span><span class="material-icons">account_circle</span></i> Orientador </a></li>
+                    <li><a href="#"><i><span class="material-icons">description</span></i> Pibic e Fluxo Contínuo</a></li>
+                    <li><a href="#"><i><span class="material-icons">description</span></i> Homologar Frequência</a></li>
+                    <li><a href="#"><i><span class="material-icons">logout</span></i> Indicar Bolsista/Voluntário</a></li>
+                    <li><a href="#"><i><span class="material-icons">description</span></i> Homologar Relatórios</a></li>
+                    <li><a href="#"><i><span class="material-icons">edit</span></i> Relatórios de Pesquisas </a></li>
+                    <li><a href="#"><i><span class="material-icons">search</span></i> Alaliar Projeto</a></li>
+                    <li><a href="#"><i><span class="material-icons">search</span></i> Alaliar Relatório</a></li>
+                    <li><a href="#"><i><span class="material-icons">description</span></i> Cadastrar Editais</a></li>
+                    <li><a href="#"><i><span class="material-icons">description</span></i> Pibic e Fluxo Contínuo</a></li>
+                    <li><a href="#"><i><span class="material-icons">article</span></i> Fluxo Contínuo</a></li>
+                    <li><a href="#"><i><span class="material-icons">article</span></i> Avaliação de Desempenho</a></li>
+                    <li><a href="#"><i><span class="material-icons">question_answer</span></i> Enviar Mensagem</a></li>
+                    <li><a href="#"><i><span class="material-icons">description</span></i>Importar/Cadastrar</a></li>
+                    -->
+
+                </ul>
+            </nav>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="js/dashboard.js"></script>
+    </body>
+</html>
